@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Price Comparison",
+  "version": "1.0.0",
+  "description": "Compare prices across e-commerce sites and pay with cryptocurrency",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Crypto Price Compare"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
